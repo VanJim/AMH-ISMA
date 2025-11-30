@@ -2,7 +2,7 @@
 
 This repository contains the Python scripts and experimental data used to generate the main results in the manuscript:
 
-> W. Zhang, Z.C. Ong, Z. Pan, "Development and Validation of an AMH–ISMA System for High-Efficiency Impact Synchronous Modal Analysis", Journal of Vibration Engineering & Technologies, 2025.
+> Wanjin Zhang, Zhi Chao Ong, Zhuangzhuang Pan, "Development and Validation of an AMH–ISMA System for High-Efficiency Impact Synchronous Modal Analysis", Journal of Vibration Engineering & Technologies, 2025.
 
 All scripts are written in Python 3 and can be run on a standard PC. The experimental data are embedded directly in the `.py` files as arrays, so no separate data files are required.
 
