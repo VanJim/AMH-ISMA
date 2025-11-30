@@ -8,32 +8,41 @@ All scripts are written in Python 3 and can be run on a standard PC. The experim
 
 ## Contents
 
-- `AMH-ISMA 4averaged20Hz.py`  
-  AMH–ISMA response data and plotting code for the case with 4 phase-controlled impacts at 20 Hz.
+All scripts are self-contained and include both the experimental data (as Python arrays) and the plotting code used to generate the figures in the paper.
 
-- `AMH-ISMA 4averaged30Hz.py`  
-  AMH–ISMA response data and plotting code for the case with 4 phase-controlled impacts at 30 Hz.
+- `calibration/AMH_bluetip.py`  
+  Calibration data and plotting code for the blue hammer tip (500 force–speed data pairs).
 
-- `AMH-ISMA 8averaged20Hz.py`  
-  AMH–ISMA response data and plotting code for the case with 8 phase-controlled impacts at 20 Hz.
+- `calibration/AMH_whitetip.py`  
+  Calibration data and plotting code for the white hammer tip (300 force–speed data pairs).
 
-- `AMH-ISMA 8averaged30Hz.py`  
-  AMH–ISMA response data and plotting code for the case with 8 phase-controlled impacts at 30 Hz.
+- `AMH_ISMA/AMH-ISMA 4averaged20Hz.py`  
+  AMH–ISMA response data and plotting code for 4 phase-controlled impacts at 20 Hz.
 
-- `AMH_bluetip.py`  
-  Calibration data and plotting code for the blue hammer tip. The script contains 500 data pairs of impact force and motor speed.
+- `AMH_ISMA/AMH-ISMA 4averaged30Hz.py`  
+  AMH–ISMA response data and plotting code for 4 phase-controlled impacts at 30 Hz.
 
-- `AMH_whitetip.py`  
-  Calibration data and plotting code for the white hammer tip. The script contains 300 data pairs of impact force and motor speed.
+- `AMH_ISMA/AMH-ISMA 8averaged 20Hz.py`  
+  AMH–ISMA response data and plotting code for 8 phase-controlled impacts at 20 Hz.
 
-- `EMA.py`  
+- `AMH_ISMA/AMH-ISMA 8averaged30Hz.py`  
+  AMH–ISMA response data and plotting code for 8 phase-controlled impacts at 30 Hz.
+
+- `AMH_ISMA/ISMA 1averaged20Hz.py`  
+  Single-impact ISMA response data and plotting code at 20 Hz.
+
+- `AMH_ISMA/ISMA 1averaged30Hz.py`  
+  Single-impact ISMA response data and plotting code at 30 Hz.
+
+- `AMH_ISMA/EMA.py`  
   Experimental data and plotting code for the benchmark EMA test on the rotor rig.
 
-- `Random ISMA 30averages 20Hz.py`  
+- `Random_ISMA/Random ISMA 30averages 20Hz.py`  
   Random-ISMA response data and plotting code for 30 averaged impacts at 20 Hz.
 
-- `Random ISMA 30averages 30Hz.py`  
+- `Random_ISMA/Random ISMA 30averages 30Hz.py`  
   Random-ISMA response data and plotting code for 30 averaged impacts at 30 Hz.
+
 
 ## Requirements
 
